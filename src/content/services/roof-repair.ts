@@ -19,6 +19,8 @@ export const roofRepair: ServiceContent = {
     subhead:
       "Active leak, missing shingles, failed flashing — we diagnose what's actually wrong and fix only what needs fixing. Most repairs run $400–$1,800 and complete same-week.",
     trustBullets: ["Same-week scheduling", "Written estimates", "Honest assessments"],
+    imagePath: "/images/service-roof-repair.jpg",
+    imageAlt: "Roofer replacing damaged asphalt shingles on a residential roof.",
   },
 
   directAnswer:

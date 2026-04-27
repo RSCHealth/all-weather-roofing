@@ -19,6 +19,8 @@ export const metalRoofing: ServiceContent = {
     subhead:
       "Standing-seam, corrugated, stone-coated steel, and copper installations engineered for St. Louis hail and storm exposure. 40–70 year lifespan with proper installation.",
     trustBullets: ["40+ year lifespan", "Hail-resistant Class 4", "Energy-reflective"],
+    imagePath: "/images/service-metal-roofing.jpg",
+    imageAlt: "Standing-seam metal roof installation on a residential home.",
   },
 
   directAnswer:

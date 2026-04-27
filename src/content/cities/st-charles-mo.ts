@@ -24,6 +24,8 @@ export const stCharlesMo: CityContent = {
     subhead:
       "From the South Main Street historic district to the HOA-governed subdivisions along Highway K, we handle the two distinct realities of roofing in St. Charles.",
     trustBullets: ["Historic-district experienced", "HOA approval support", "St. Louis–based crews"],
+    imagePath: "/images/city-historic-home.jpg",
+    imageAlt: "Historic American home representative of St. Charles, MO architecture.",
   },
 
   directAnswer:

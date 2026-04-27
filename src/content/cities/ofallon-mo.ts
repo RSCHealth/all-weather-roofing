@@ -23,6 +23,8 @@ export const ofallonMo: CityContent = {
     subhead:
       "WingHaven, Highway K subdivisions, Lake Saint Louis adjacency — O'Fallon's HOA architectural review boards shape every roofing decision. We handle the approval submissions.",
     trustBullets: ["HOA approval support", "Insurance-claim experienced", "Same-week scheduling"],
+    imagePath: "/images/city-suburban-home.jpg",
+    imageAlt: "Suburban two-story home representative of O'Fallon, MO subdivisions.",
   },
 
   directAnswer:

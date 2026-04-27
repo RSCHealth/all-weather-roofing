@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Award, ShieldCheck, Users, HandHeart } from "lucide-react";
 import { CTABand } from "@/components/cta/CTABand";
 import { FAQSection } from "@/components/content/FAQSection";
@@ -103,6 +104,18 @@ export default function AboutPage() {
             and that&rsquo;s exactly the point.
           </p>
         </div>
+      </section>
+
+      {/* Team + truck visual */}
+      <section className="mx-auto w-full max-w-5xl px-6 pb-12 lg:pb-16">
+        <Image
+          src="/images/about-team-truck.jpg"
+          alt="All Weather Roofing Systems crew with their work truck."
+          width={1600}
+          height={1067}
+          sizes="(min-width: 1024px) 960px, 100vw"
+          className="aspect-[3/2] w-full rounded-xl object-cover shadow-card"
+        />
       </section>
 
       {/* Meet the Team */}

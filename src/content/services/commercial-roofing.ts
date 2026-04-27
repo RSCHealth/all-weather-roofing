@@ -19,6 +19,8 @@ export const commercialRoofing: ServiceContent = {
     subhead:
       "Single-ply, modified bitumen, metal, and restoration coatings for office, retail, multi-family, and light industrial properties. We coordinate around your tenants and your insurance.",
     trustBullets: ["Insurance experienced", "Tenant-coordinated scheduling", "20-year manufacturer warranties"],
+    imagePath: "/images/service-commercial.jpg",
+    imageAlt: "Commercial flat roof installation on a St. Louis-area building.",
   },
 
   directAnswer:

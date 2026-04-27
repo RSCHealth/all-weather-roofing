@@ -23,6 +23,8 @@ export const roofReplacement: ServiceContent = {
       "No subcontractors",
       "1–3 day install",
     ],
+    imagePath: "/images/service-roof-replacement.jpg",
+    imageAlt: "Roofing crew installing new shingles on a residential St. Louis tear-off project.",
   },
 
   directAnswer:

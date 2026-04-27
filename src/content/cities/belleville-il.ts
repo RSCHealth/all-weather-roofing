@@ -23,6 +23,8 @@ export const bellevilleIl: CityContent = {
     subhead:
       "Southern Illinois tornado and hail country. Historic brick downtown. We work both — with active IDFPR licensure, insurance-claim experience, and historic-context know-how.",
     trustBullets: ["Storm-recovery focused", "Historic-stock experienced", "IDFPR-licensed"],
+    imagePath: "/images/city-historic-home.jpg",
+    imageAlt: "Historic brick home representative of Belleville, IL downtown architecture.",
   },
 
   directAnswer:

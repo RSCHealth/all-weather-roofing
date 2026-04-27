@@ -23,6 +23,8 @@ export const ladueMo: CityContent = {
     subhead:
       "Estate-scale houses, premium materials as the baseline, strict code enforcement, and reputation-sensitive clientele. Roofing in Ladue is a different category of contracting.",
     trustBullets: ["Estate-scale projects", "White-glove logistics", "Strict-code compliance"],
+    imagePath: "/images/city-luxury-home.jpg",
+    imageAlt: "Estate-scale home representative of Ladue, MO architecture.",
   },
 
   directAnswer:

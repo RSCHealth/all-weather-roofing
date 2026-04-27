@@ -19,6 +19,8 @@ export const residentialRoofing: ServiceContent = {
     subhead:
       "From a single-shingle repair to a full architectural-asphalt replacement, we handle every stage of residential roof work — by W-2 employees, with written warranties on both labor and materials.",
     trustBullets: ["Licensed & Insured", "GAF Certified", "No subcontractors"],
+    imagePath: "/images/service-residential.jpg",
+    imageAlt: "Residential St. Louis home with newly installed asphalt shingle roof.",
   },
 
   directAnswer:

@@ -23,6 +23,8 @@ export const kirkwoodMo: CityContent = {
     subhead:
       "Victorian, Craftsman, and Foursquare homes anchoring a walkable historic community. Roofing here means period-appropriate materials, tight-block logistics, and respect for an old neighborhood.",
     trustBullets: ["Period-appropriate materials", "Walkable-block logistics", "Decking-aware tear-off"],
+    imagePath: "/images/city-historic-home.jpg",
+    imageAlt: "Victorian-era home representative of Kirkwood, MO historic architecture.",
   },
 
   directAnswer:

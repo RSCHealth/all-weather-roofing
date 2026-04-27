@@ -23,6 +23,8 @@ export const claytonMo: CityContent = {
     subhead:
       "Tudor Revival next to Mid-Century Modern next to a 2018 luxury rebuild — Clayton's blocks demand individualized roofing recommendations and the workmanship to match.",
     trustBullets: ["Premium materials", "Detail-oriented crews", "Tight-block logistics"],
+    imagePath: "/images/city-luxury-home.jpg",
+    imageAlt: "Premium home with architectural detailing representative of Clayton, MO.",
   },
 
   directAnswer:

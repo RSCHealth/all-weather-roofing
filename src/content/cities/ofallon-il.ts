@@ -27,6 +27,8 @@ export const ofallonIl: CityContent = {
       "PCS-timeline experienced",
       "Cross-state insurance",
     ],
+    imagePath: "/images/city-suburban-home.jpg",
+    imageAlt: "Suburban home representative of O'Fallon, IL housing stock.",
   },
 
   directAnswer:

@@ -23,6 +23,8 @@ export const edwardsvilleIl: CityContent = {
     subhead:
       "Three roofing realities in one city: nationally-registered historic homes, SIUE-area rental property, and Glen Carbon-corridor new construction. We work all three.",
     trustBullets: ["Three-audience experienced", "IDFPR-licensed", "Madison County"],
+    imagePath: "/images/city-historic-home.jpg",
+    imageAlt: "Historic American home representative of Edwardsville, IL University District.",
   },
 
   directAnswer:

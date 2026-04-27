@@ -23,6 +23,8 @@ export const chesterfieldMo: CityContent = {
     subhead:
       "West County's premium roofing market — slate, clay tile, copper accents, and designer asphalt as the baseline rather than the upgrade. ARB-experienced.",
     trustBullets: ["Premium-material installer", "ARB-experienced", "West County focused"],
+    imagePath: "/images/city-luxury-home.jpg",
+    imageAlt: "Premium luxury home representative of Chesterfield, MO architecture.",
   },
 
   directAnswer:

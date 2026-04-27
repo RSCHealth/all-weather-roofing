@@ -23,6 +23,8 @@ export const creveCoeurMo: CityContent = {
     subhead:
       "Mature oaks, premium homes, and recurring branch-strike repairs. Roofing in Creve Coeur is partly damage-response work and partly ongoing canopy management.",
     trustBullets: ["Branch-strike specialists", "Premium-material trained", "Tree-protected logistics"],
+    imagePath: "/images/city-canopy-home.jpg",
+    imageAlt: "Home surrounded by mature trees representative of Creve Coeur, MO canopy.",
   },
 
   directAnswer:

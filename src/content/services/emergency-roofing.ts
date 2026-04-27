@@ -23,6 +23,8 @@ export const emergencyRoofing: ServiceContent = {
       "~3 hr arrival (business hours)",
       "Real person answers",
     ],
+    imagePath: "/images/service-emergency.jpg",
+    imageAlt: "Blue emergency tarp covering active storm damage on a residential roof.",
   },
 
   directAnswer:

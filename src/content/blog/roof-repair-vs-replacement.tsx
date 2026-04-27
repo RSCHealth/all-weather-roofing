@@ -241,8 +241,8 @@ export const roofRepairVsReplacement: BlogPost = {
       "when to replace roof st louis",
       "partial roof replacement",
     ],
-    heroImage: undefined,
-    heroImageAlt: "Side-by-side: a localized roof repair area next to a full roof replacement",
+    heroImage: "/images/blog-repair-vs-replacement.jpg",
+    heroImageAlt: "Roof showing damage and wear that informs the repair vs. replacement decision.",
     tags: ["repair", "replacement", "decision"],
     featured: false,
     directAnswer:

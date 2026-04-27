@@ -19,6 +19,8 @@ export const roofingInspection: ServiceContent = {
     subhead:
       "Free, no-pressure inspections for buying, selling, post-storm assessment, or annual maintenance. Written photo report delivered within 48 hours — yours whether you hire us or not.",
     trustBullets: ["Free for most situations", "Written photo report", "No pressure to hire"],
+    imagePath: "/images/service-inspection.jpg",
+    imageAlt: "Roofing contractor inspecting and documenting roof condition with a clipboard.",
   },
 
   directAnswer:

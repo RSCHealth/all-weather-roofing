@@ -23,6 +23,8 @@ export const industrialRoofing: ServiceContent = {
       "Phased install scheduling",
       "20-year manufacturer warranties",
     ],
+    imagePath: "/images/service-industrial.jpg",
+    imageAlt: "Aerial view of a large industrial flat roof on a warehouse facility.",
   },
 
   directAnswer:

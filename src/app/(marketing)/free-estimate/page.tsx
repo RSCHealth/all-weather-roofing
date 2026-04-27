@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Check } from "lucide-react";
 import { PhoneCTA } from "@/components/cta/PhoneCTA";
 import { CallbackForm } from "@/components/forms/CallbackForm";
@@ -108,11 +109,15 @@ export default function FreeEstimatePage() {
             </div>
           </div>
           <div className="flex items-center">
-            <div className="aspect-[4/3] w-full rounded-xl border border-slate-200 bg-white shadow-card">
-              <div className="flex h-full items-center justify-center text-sm text-slate-500">
-                [Photo: roofer doing on-site inspection]
-              </div>
-            </div>
+            <Image
+              src="/images/free-estimate-inspection.jpeg"
+              alt="Roofer performing an on-site inspection of a residential St. Louis home."
+              width={1200}
+              height={800}
+              priority
+              sizes="(min-width: 1024px) 540px, 100vw"
+              className="aspect-[3/2] w-full rounded-xl object-cover shadow-card"
+            />
           </div>
         </div>
       </section>

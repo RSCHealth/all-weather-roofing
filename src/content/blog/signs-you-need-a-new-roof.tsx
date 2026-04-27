@@ -265,8 +265,8 @@ export const signsYouNeedANewRoof: BlogPost = {
       "when to replace roof st louis",
       "asphalt shingle lifespan st louis",
     ],
-    heroImage: undefined,
-    heroImageAlt: "Aged asphalt shingle roof showing granule loss and curling",
+    heroImage: "/images/blog-signs-new-roof.jpg",
+    heroImageAlt: "Aged asphalt shingle roof showing granule loss and curling.",
     tags: ["replacement", "inspection", "st louis"],
     featured: true,
     directAnswer:

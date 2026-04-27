@@ -271,8 +271,8 @@ export const bestRoofingMaterialsStLouis: BlogPost = {
       "metal vs asphalt roof st louis",
       "designer asphalt vs slate",
     ],
-    heroImage: undefined,
-    heroImageAlt: "Comparison of asphalt, metal, and slate roofing materials",
+    heroImage: "/images/blog-materials.jpg",
+    heroImageAlt: "Roofing material samples — asphalt shingles, metal panels, and slate.",
     tags: ["materials", "comparison", "st louis"],
     featured: false,
     directAnswer:

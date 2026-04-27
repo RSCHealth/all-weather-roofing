@@ -23,6 +23,8 @@ export const stormDamageRoofing: ServiceContent = {
       "Insurance-claim experienced",
       "Photographic documentation",
     ],
+    imagePath: "/images/service-storm-damage.jpg",
+    imageAlt: "Hail and storm damage on residential asphalt shingles.",
   },
 
   directAnswer:
