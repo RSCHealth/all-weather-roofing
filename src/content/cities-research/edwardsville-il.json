@@ -1,0 +1,91 @@
+{
+  "slug": "edwardsville-il",
+  "nameDisplay": "Edwardsville, IL",
+  "primaryAngle": "Edwardsville: from historic University District to new construction on the south and east sides",
+  "housingStock": {
+    "dominantEras": [
+      "1830s–1900s historic core (one of Illinois's oldest cities)",
+      "early-1900s through mid-century university-area inventory",
+      "1990s–2020s subdivision growth on south and east sides"
+    ],
+    "dominantStyles": [
+      "Federal and Greek Revival on oldest blocks",
+      "Queen Anne and Victorian in the University District",
+      "American Foursquare and Craftsman",
+      "production-builder traditional in newer phases"
+    ],
+    "medianYearBuilt": null,
+    "pctHistoric": null
+  },
+  "neighborhoods": [
+    {
+      "name": "University District (St. Louis Street area)",
+      "profile": "Historic neighborhood adjacent to SIUE-area properties; significant 1880s–1930s housing stock. Many homes are owner-occupied; some are converted rental properties."
+    },
+    {
+      "name": "Leclaire Historic District",
+      "profile": "Original company town of N.O. Nelson; nationally registered historic district with distinctive stone and frame homes."
+    },
+    {
+      "name": "Glen Carbon corridor",
+      "profile": "Newer subdivision growth toward Glen Carbon, including HOA-governed master-planned communities."
+    },
+    {
+      "name": "Eastern subdivisions",
+      "profile": "1990s–2020s production housing on the city's eastern growth side; mostly asphalt-shingle inventory."
+    }
+  ],
+  "weatherEvents": [
+    {
+      "date": "spring (recurring)",
+      "type": "hail",
+      "description": "Metro East severe-weather corridor produces periodic spring hail affecting Madison County roofs (specific dates: owner-verify)."
+    },
+    {
+      "date": "spring (recurring)",
+      "type": "tornado",
+      "description": "Southern Illinois tornado window April–June applies to the Edwardsville area; specific historical events: owner-verify."
+    }
+  ],
+  "regulatoryContext": {
+    "permitOffice": "City of Edwardsville Building Department (Madison County for unincorporated areas)",
+    "notableCodes": [
+      "Leclaire Historic District is a nationally registered historic district with preservation considerations",
+      "Illinois roofing licensure required (IDFPR)",
+      "Madison County permitting differs from City of Edwardsville requirements"
+    ],
+    "historicDistrictName": "Leclaire Historic District"
+  },
+  "localEntities": {
+    "landmarks": [
+      "Southern Illinois University Edwardsville (SIUE)",
+      "Leclaire Historic District",
+      "Edwardsville Children's Museum",
+      "Watershed Nature Center"
+    ],
+    "highways": ["I-55", "I-270", "Highway 159", "Highway 143"],
+    "suppliers": [
+      "Owner-verify: list 1–2 nearby Metro East / Madison County roofing suppliers"
+    ]
+  },
+  "commonRoofingChallenges": [
+    "Three-audience reality: historic homeowners, university-area landlords, new-construction owners — each with different priorities",
+    "Rental property roof scope tends toward 'function over premium' but landlord disclosure obligations still apply",
+    "Spring tornado and hail risk drives insurance-claim work",
+    "Historic district preservation considerations on Leclaire and University District properties",
+    "Glen Carbon and southeast growth corridor introduces HOA approval cycles for newer subdivisions"
+  ],
+  "nearbyCities": ["belleville-il", "ofallon-il"],
+  "uniqueAngleElaboration": "Edwardsville is one of Illinois's oldest cities — chartered in 1818 — and that history shows up in the housing stock around the University District and the nationally-registered Leclaire Historic District. But Edwardsville is also a fast-growing Metro East suburb, with significant subdivision build-out toward Glen Carbon and on the eastern side of town. That combination means roofing in Edwardsville serves three different homeowners: owners of historically significant properties who want material choices that respect the home's era, landlords with SIUE-area rental inventory where the priority is functional roofing on a tight budget, and new-construction or post-1990 subdivision owners working through HOA approvals. The contractor's job is to read which audience the homeowner falls into and tailor the conversation. Spring tornado and hail risk, common across the Metro East, drives a meaningful share of insurance-claim work in Edwardsville every year.",
+  "sourcesConsulted": [
+    "City of Edwardsville official website",
+    "National Register of Historic Places (Leclaire)",
+    "General knowledge of SIUE-area housing patterns"
+  ],
+  "ownerVerifyItems": [
+    "Specific recent severe-weather events affecting Edwardsville with dates",
+    "Specific HOA names in Glen Carbon corridor subdivisions",
+    "Local Madison County / Metro East supplier names",
+    "Median year built and historic stock percentage"
+  ]
+}

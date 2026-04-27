@@ -1,0 +1,91 @@
+{
+  "slug": "st-charles-mo",
+  "nameDisplay": "St. Charles, MO",
+  "primaryAngle": "Roofing historic properties and meeting St. Charles's preservation codes",
+  "housingStock": {
+    "dominantEras": [
+      "pre-1900 (historic Main Street district)",
+      "1950s–1970s mid-century inventory",
+      "1990s–2020s new construction on the western and northwestern sides"
+    ],
+    "dominantStyles": [
+      "French Colonial",
+      "Federal",
+      "Greek Revival",
+      "Victorian",
+      "modern ranch and suburban traditional"
+    ],
+    "medianYearBuilt": null,
+    "pctHistoric": null
+  },
+  "neighborhoods": [
+    {
+      "name": "Historic Main Street District",
+      "profile": "Pre-1900 commercial and residential structures along South Main Street; protected by St. Charles's preservation overlay."
+    },
+    {
+      "name": "Frenchtown",
+      "profile": "Original French Colonial settlement north of the historic district; mix of restored historic homes and infill construction."
+    },
+    {
+      "name": "New Town at St. Charles",
+      "profile": "Master-planned traditional-neighborhood development on the city's east side with strict architectural review board."
+    },
+    {
+      "name": "West St. Charles / Highway K corridor",
+      "profile": "1990s–2020s subdivisions along Highway K, dominated by HOA-governed asphalt-shingle roofs."
+    }
+  ],
+  "weatherEvents": [
+    {
+      "date": "spring (recurring)",
+      "type": "hail",
+      "description": "St. Charles County sits in the broader St. Louis severe-weather corridor; spring hail events affecting suburban roofs are common (specific dates and damage scope: owner-verify)."
+    },
+    {
+      "date": "spring (recurring)",
+      "type": "straight-line wind",
+      "description": "Spring/summer thunderstorm wind events with periodic shingle and tree-related roof damage (specific events: owner-verify)."
+    }
+  ],
+  "regulatoryContext": {
+    "permitOffice": "City of St. Charles Planning & Building Division (and St. Charles County Building Division for unincorporated areas)",
+    "notableCodes": [
+      "Historic preservation overlay covers parts of South Main Street; material and color changes can require Historic Preservation Commission review",
+      "HOA architectural review boards govern most subdivision communities outside the historic core"
+    ],
+    "historicDistrictName": "St. Charles National Register Historic District (South Main Street area)"
+  },
+  "localEntities": {
+    "landmarks": [
+      "First Missouri State Capitol",
+      "South Main Street historic district",
+      "Lewis & Clark Boat House",
+      "Frontier Park along the Missouri River"
+    ],
+    "highways": ["I-70", "I-370", "Highway 94", "Highway 364"],
+    "suppliers": [
+      "Owner-verify: list 1–2 local lumber yards or roofing supply houses serving St. Charles"
+    ]
+  },
+  "commonRoofingChallenges": [
+    "Material and color approvals required for properties inside the historic preservation overlay",
+    "HOA approval processes adding 1–3 weeks to project schedules in newer subdivisions",
+    "Spring hail and wind events driving insurance-claim work in late April through June",
+    "Older homes near the river requiring decking and ventilation upgrades that don't show up until tear-off"
+  ],
+  "nearbyCities": ["ofallon-mo", "creve-coeur-mo", "chesterfield-mo"],
+  "uniqueAngleElaboration": "St. Charles is split into two roofing realities. On the historic east side — the pre-1900 South Main Street district and Frenchtown — material choice, color, and even fastener visibility can be subject to preservation review, and what you can install on your great-grandparents' Federal-era home is not what you'd put on a new build in the New Town subdivision. On the west side, Highway K corridor subdivisions are HOA-dominant: architectural review boards approve color and material changes, and homeowners frequently learn about that approval requirement only when a roofer mentions it during the estimate. A roofer working in St. Charles needs to understand both worlds — and to set realistic expectations for the homeowner about which approvals add weeks to a project timeline. Spring hail and wind events drive most St. Charles County insurance-claim work, with the bulk of damage hitting the suburban subdivisions rather than the older historic stock (which often has slate, tile, or premium asphalt that handles hail better).",
+  "sourcesConsulted": [
+    "City of St. Charles official website (general municipal structure)",
+    "National Register of Historic Places listings for St. Charles County",
+    "General knowledge of St. Louis-area suburban housing and HOA patterns"
+  ],
+  "ownerVerifyItems": [
+    "Specific historic preservation overlay boundaries",
+    "Permit office name (City of St. Charles vs. St. Charles County) for any specific project address",
+    "Specific recent (last 5 years) hail and wind events with dates and damage descriptions",
+    "Local supplier names",
+    "Median year built and percent historic stock for St. Charles housing"
+  ]
+}

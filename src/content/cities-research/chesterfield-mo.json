@@ -1,0 +1,90 @@
+{
+  "slug": "chesterfield-mo",
+  "nameDisplay": "Chesterfield, MO",
+  "primaryAngle": "Chesterfield luxury roofing: slate, tile, copper, and designer shingle specialists",
+  "housingStock": {
+    "dominantEras": [
+      "1980s–2000s subdivision-era luxury construction",
+      "2010s–2020s premium new builds and teardown rebuilds"
+    ],
+    "dominantStyles": [
+      "European Tudor and Manor",
+      "French Country and French Colonial",
+      "Contemporary luxury",
+      "American Traditional on larger lots"
+    ],
+    "medianYearBuilt": null,
+    "pctHistoric": null
+  },
+  "neighborhoods": [
+    {
+      "name": "Chesterfield Valley",
+      "profile": "Mixed commercial and residential development in the Missouri River bottoms; some flood-conscious construction."
+    },
+    {
+      "name": "Wildhorse Village / Wilson Estates",
+      "profile": "Premium subdivisions with architectural review boards and large-lot luxury homes."
+    },
+    {
+      "name": "Clarkson Valley / Forest Hills border",
+      "profile": "Adjacent premium areas including Clarkson Valley and Forest Hills with comparable luxury inventory."
+    },
+    {
+      "name": "Hilltown / Conway Road area",
+      "profile": "Wooded large-lot estates near Conway Road with established mature properties."
+    }
+  ],
+  "weatherEvents": [
+    {
+      "date": "spring (recurring)",
+      "type": "hail",
+      "description": "West County is in the active spring hail corridor; Chesterfield's premium roof inventory makes hail events particularly costly events when claims meet thresholds (specific dates: owner-verify)."
+    },
+    {
+      "date": "spring/summer (recurring)",
+      "type": "straight-line wind",
+      "description": "Wind events occasionally cause visible damage to designer shingles and metal accents (specific events: owner-verify)."
+    }
+  ],
+  "regulatoryContext": {
+    "permitOffice": "City of Chesterfield Public Works / Building Division",
+    "notableCodes": [
+      "Architectural review boards govern most premium subdivisions",
+      "Material substitutions on slate, tile, or copper installations may require ARB approval",
+      "Floodplain considerations apply to portions of Chesterfield Valley"
+    ],
+    "historicDistrictName": null
+  },
+  "localEntities": {
+    "landmarks": [
+      "Chesterfield Mall (former)",
+      "Chesterfield Amphitheater",
+      "Faust Park",
+      "Chesterfield Valley Athletic Complex",
+      "St. Luke's Hospital"
+    ],
+    "highways": ["I-64 / Highway 40", "Highway 141", "Highway 340 / Olive Blvd"],
+    "suppliers": [
+      "Owner-verify: list nearby premium-material suppliers (slate, tile, copper)"
+    ]
+  },
+  "commonRoofingChallenges": [
+    "Premium material specification (slate, clay tile, copper, designer asphalt) requires installer experience beyond standard residential roofing",
+    "ARB approval cycles for material or color changes on high-end subdivisions",
+    "Larger square footage roofs increase project scope and dumpster logistics",
+    "Hail events are particularly costly given premium material replacement costs",
+    "Detail-oriented homeowners with high expectations for clean job sites and finish quality"
+  ],
+  "nearbyCities": ["creve-coeur-mo", "ladue-mo", "ofallon-mo"],
+  "uniqueAngleElaboration": "Chesterfield is one of West County's premium roofing markets, and the inventory reflects it. Slate, clay tile, copper accents, and designer asphalt are common materials here; the average Chesterfield roof replacement costs significantly more than the metro median because the houses are larger, the materials are higher-end, and architectural review boards in the better subdivisions enforce a level of finish quality you don't see on standard production housing. Roofers working in Chesterfield need installer experience on premium materials specifically — slate and tile work isn't the same as architectural asphalt, and a contractor who treats them the same will produce visible problems on a roof that's supposed to last 50+ years. Hail events are particularly expensive in Chesterfield given the premium material replacement costs; insurance scope-of-loss conversations frequently focus on whether matching materials are available or whether full-roof replacement is required. ARB approval cycles add 1–3 weeks to most projects in the better subdivisions.",
+  "sourcesConsulted": [
+    "City of Chesterfield official website",
+    "General knowledge of West County luxury residential construction"
+  ],
+  "ownerVerifyItems": [
+    "Specific subdivision and ARB names",
+    "Specific recent hail events with dated damage scope",
+    "Local premium-material supplier names",
+    "Whether All Weather has slate / tile / copper installer certifications and project portfolio in Chesterfield"
+  ]
+}

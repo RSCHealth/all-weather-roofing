@@ -1,0 +1,81 @@
+{
+  "slug": "ofallon-mo",
+  "nameDisplay": "O'Fallon, MO",
+  "primaryAngle": "Fast-growing O'Fallon: HOA-compliant roofing for newer subdivisions",
+  "housingStock": {
+    "dominantEras": [
+      "1990s–2010s subdivision construction",
+      "2015–2025 newer infill and active growth"
+    ],
+    "dominantStyles": [
+      "suburban traditional",
+      "two-story production-builder colonial",
+      "modern farmhouse and craftsman variants in newer phases"
+    ],
+    "medianYearBuilt": null,
+    "pctHistoric": null
+  },
+  "neighborhoods": [
+    {
+      "name": "WingHaven",
+      "profile": "Master-planned community with tight architectural review board governance and unified architectural standards."
+    },
+    {
+      "name": "Dardenne Prairie / Highway K corridor",
+      "profile": "1990s–2010s production subdivisions along the Highway K growth corridor; many HOA-governed."
+    },
+    {
+      "name": "Lake Saint Louis adjacency",
+      "profile": "Premium lakefront-adjacent subdivisions near the Lake Saint Louis community; mix of HOA-controlled large-lot homes."
+    }
+  ],
+  "weatherEvents": [
+    {
+      "date": "spring (recurring)",
+      "type": "hail",
+      "description": "Western St. Charles County, including O'Fallon, is in the active spring hail corridor for the St. Louis metro (specific dates: owner-verify)."
+    },
+    {
+      "date": "spring (recurring)",
+      "type": "straight-line wind",
+      "description": "Spring/summer thunderstorm wind events causing shingle and tree damage in subdivisions (specific events: owner-verify)."
+    }
+  ],
+  "regulatoryContext": {
+    "permitOffice": "City of O'Fallon Building Division (and St. Charles County for unincorporated areas)",
+    "notableCodes": [
+      "Most subdivision homes are governed by HOA architectural review boards — color and material changes require approval",
+      "Newer subdivisions often have specific shingle line / color palette requirements written into covenants"
+    ],
+    "historicDistrictName": null
+  },
+  "localEntities": {
+    "landmarks": [
+      "Ozzie Smith Sports Complex",
+      "WingHaven community",
+      "Highway K commercial corridor",
+      "Lake Saint Louis (adjacent)"
+    ],
+    "highways": ["I-64 / Highway 40", "Highway K", "Highway P"],
+    "suppliers": ["Owner-verify: list 1–2 nearby roofing supply houses"]
+  },
+  "commonRoofingChallenges": [
+    "HOA approval cycles routinely add 1–3 weeks to project schedules",
+    "Color/material conformity required within most subdivision covenants",
+    "Spring hail events driving heavy insurance-claim volume",
+    "Production-builder original shingles often near or past their useful life"
+  ],
+  "nearbyCities": ["st-charles-mo", "creve-coeur-mo", "chesterfield-mo"],
+  "uniqueAngleElaboration": "O'Fallon, MO has been one of the fastest-growing cities in the St. Louis metro for the past two decades, and the housing stock reflects that — the overwhelming majority of homes were built between the early 1990s and today, in subdivisions designed for architectural consistency. That consistency is enforced by HOA architectural review boards, which means color changes, material changes, and even shingle-line changes typically require formal approval before a roof gets replaced. For homeowners, this is the single most important roofing-specific thing about O'Fallon: starting an HOA approval early can shave weeks off the project timeline, and choosing a contractor who's done HOA approval submissions before saves a meaningful amount of friction. Many of the original production-builder shingles are now 15–25 years old, putting a large share of O'Fallon's housing in active replacement consideration — and spring hail events are accelerating that timeline for many homeowners through insurance claims.",
+  "sourcesConsulted": [
+    "City of O'Fallon, MO official website",
+    "Public-record housing growth data for St. Charles County",
+    "General knowledge of suburban HOA roofing approval patterns"
+  ],
+  "ownerVerifyItems": [
+    "Names of major HOAs and their architectural-review specifics",
+    "Specific recent hail events with dates",
+    "Local supplier names",
+    "Whether City of O'Fallon or St. Charles County permitting applies for specific subdivisions"
+  ]
+}

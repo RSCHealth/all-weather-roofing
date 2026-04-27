@@ -1,0 +1,89 @@
+{
+  "slug": "creve-coeur-mo",
+  "nameDisplay": "Creve Coeur, MO",
+  "primaryAngle": "Creve Coeur's tree canopy: protecting premium homes from branch and debris damage",
+  "housingStock": {
+    "dominantEras": [
+      "1950s–1970s mid-century established neighborhoods",
+      "1980s–2010s premium teardown-and-rebuild stock",
+      "newer luxury infill"
+    ],
+    "dominantStyles": [
+      "Mid-Century Modern",
+      "Colonial Revival on larger lots",
+      "Contemporary luxury rebuilds",
+      "Ranch and split-level on older streets"
+    ],
+    "medianYearBuilt": null,
+    "pctHistoric": null
+  },
+  "neighborhoods": [
+    {
+      "name": "Creve Coeur Lake area",
+      "profile": "Premium residential streets near Creve Coeur Lake Memorial Park with heavily-wooded large lots and mature canopy."
+    },
+    {
+      "name": "Olive Boulevard corridor",
+      "profile": "Established neighborhoods along Olive Boulevard mixing mid-century homes with newer rebuilds."
+    },
+    {
+      "name": "Schuetz Road / Conway corridor",
+      "profile": "Larger-lot streets with older mid-century homes and some recent luxury redevelopment."
+    }
+  ],
+  "weatherEvents": [
+    {
+      "date": "spring (recurring)",
+      "type": "straight-line wind",
+      "description": "Mature tree canopy means wind events translate directly to branch-strike roof damage and debris clearing. Specific events: owner-verify."
+    },
+    {
+      "date": "spring/summer (recurring)",
+      "type": "hail",
+      "description": "St. Louis-area hail corridor affects Creve Coeur, with mature shade canopy occasionally limiting visible damage assessment from the ground (specific events: owner-verify)."
+    },
+    {
+      "date": "winter (recurring)",
+      "type": "ice storm",
+      "description": "Periodic ice events bring down limbs onto roofs in heavily-canopied neighborhoods (specific events: owner-verify)."
+    }
+  ],
+  "regulatoryContext": {
+    "permitOffice": "City of Creve Coeur Building Department",
+    "notableCodes": [
+      "City building department reviews roofing permits with attention to drainage and grade on large-lot properties",
+      "Some neighborhoods governed by HOAs with material guidelines",
+      "Tree-protection ordinances can affect equipment staging on heavily-wooded lots"
+    ],
+    "historicDistrictName": null
+  },
+  "localEntities": {
+    "landmarks": [
+      "Creve Coeur Lake Memorial Park",
+      "Millennium Park",
+      "Conway Road corridor",
+      "Olive Boulevard"
+    ],
+    "highways": ["I-270", "I-64 / Highway 40", "Highway 141"],
+    "suppliers": ["Owner-verify: list nearby roofing suppliers serving Creve Coeur"]
+  },
+  "commonRoofingChallenges": [
+    "Branch-strike repairs as a recurring storm-aftermath service",
+    "Heavy debris in gutters from mature canopy — gutter protection a frequent add-on",
+    "Equipment staging and dumpster placement constrained by tree-protection considerations",
+    "Limited visibility from the ground for damage assessment under dense canopy",
+    "Premium materials common — slate, designer asphalt, copper accents"
+  ],
+  "nearbyCities": ["chesterfield-mo", "ladue-mo", "clayton-mo"],
+  "uniqueAngleElaboration": "If there's one defining roofing reality in Creve Coeur, it's the tree canopy. Mature oaks, maples, and sycamores tower over many of the city's premium residential streets — beautiful for the neighborhood, but a recurring source of roofing work. Wind events translate to branch strikes; ice storms bring entire limbs onto roofs; gutters fill with leaves and seed pods that hold moisture against the roof edge for weeks at a time. Roofing in Creve Coeur is partly damage-response work and partly ongoing maintenance: gutter protection, tree-strike patching, and debris removal are recurring services in addition to the standard repair-and-replacement scope. Equipment staging matters too — Creve Coeur has tree-protection considerations on many large-lot properties that affect where dumpsters can go and how crews can move. And damage assessment from the ground is harder under dense canopy than in open suburban subdivisions, which makes professional inspection genuinely valuable rather than optional.",
+  "sourcesConsulted": [
+    "City of Creve Coeur official website",
+    "General knowledge of mature-canopy West County housing"
+  ],
+  "ownerVerifyItems": [
+    "Specific recent severe-weather events affecting Creve Coeur",
+    "Specific HOA names governing Creve Coeur subdivisions",
+    "Local supplier names",
+    "Tree-protection ordinance specifics for Creve Coeur"
+  ]
+}

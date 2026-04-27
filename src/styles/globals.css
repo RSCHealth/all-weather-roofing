@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+ * Design tokens — All Weather Roofing Systems
+ * Tailwind v4 CSS-first config. Every token below becomes a utility class
+ * (e.g. --color-storm-navy → bg-storm-navy / text-storm-navy / border-storm-navy).
+ * --------------------------------------------------------------------------- */
+
+@theme {
+  /* Brand palette */
+  --color-storm-navy: #1B3054;
+  --color-signal-amber: #D97B2B;
+  --color-alert-crimson: #B8312F;
+  --color-hearthstone: #F7F5F2;
+  --color-white: #FFFFFF;
+
+  /* Warm-neutral slate scale (overrides Tailwind defaults) */
+  --color-slate-50:  #F8FAFC;
+  --color-slate-100: #F1F5F9;
+  --color-slate-200: #E2E8F0;
+  --color-slate-300: #CBD5E1;
+  --color-slate-400: #94A3B8;
+  --color-slate-500: #64748B;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1E293B;
+  --color-slate-900: #0F1420;
+
+  /* Status colors */
+  --color-success: #2F7D4F;
+  --color-warning: #D97706;
+  --color-danger:  #B8312F;
+
+  /* Typography */
+  --font-heading: var(--font-heading), "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-body:    var(--font-body), "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-sans:    var(--font-body), "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Type scale (desktop; mobile scales via responsive utilities in components) */
+  --text-h5: 1.125rem;     /* 18 */
+  --text-h5--line-height: 1.625rem;  /* 26 */
+  --text-h4: 1.375rem;     /* 22 */
+  --text-h4--line-height: 1.875rem;  /* 30 */
+  --text-h3: 1.75rem;      /* 28 */
+  --text-h3--line-height: 2.25rem;   /* 36 */
+  --text-h2: 2.25rem;      /* 36 */
+  --text-h2--line-height: 2.75rem;   /* 44 */
+  --text-h1: 3rem;         /* 48 */
+  --text-h1--line-height: 3.5rem;    /* 56 */
+
+  /* Border radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+
+  /* Box shadows */
+  --shadow-card: 0 1px 2px rgba(15, 20, 32, 0.06), 0 4px 12px rgba(15, 20, 32, 0.06);
+  --shadow-cta:  0 6px 18px rgba(217, 123, 43, 0.25);
+
+  /* Animations — used by Button variant="emergency" pulse */
+  --animate-pulse-cta: pulse-cta 2s ease-in-out infinite;
+
+  @keyframes pulse-cta {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(184, 49, 47, 0.6); }
+    50%      { box-shadow: 0 0 0 10px rgba(184, 49, 47, 0); }
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * Root custom properties (also exposes tokens to non-Tailwind contexts)
+ * --------------------------------------------------------------------------- */
+
+:root {
+  --storm-navy: #1B3054;
+  --signal-amber: #D97B2B;
+  --alert-crimson: #B8312F;
+  --hearthstone: #F7F5F2;
+  --slate-900: #0F1420;
+}
+
+/* ---------------------------------------------------------------------------
+ * Base layer
+ * --------------------------------------------------------------------------- */
+
+html {
+  scroll-behavior: smooth;
+  /* Reserve space below the fold for the mobile sticky phone bar so
+     focus-scroll and anchor jumps don't park the focused element under it. */
+  scroll-padding-bottom: 80px;
+}
+
+@media (min-width: 1024px) {
+  html {
+    scroll-padding-bottom: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background: var(--hearthstone);
+  color: var(--slate-900);
+  font-size: 16px;
+  line-height: 1.6;
+}

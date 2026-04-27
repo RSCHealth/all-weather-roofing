@@ -1,0 +1,93 @@
+{
+  "slug": "kirkwood-mo",
+  "nameDisplay": "Kirkwood, MO",
+  "primaryAngle": "Kirkwood's Victorian and Craftsman homes: period-appropriate roofing for a walkable historic community",
+  "housingStock": {
+    "dominantEras": [
+      "1880s–1910s Victorian core",
+      "1910s–1930s Craftsman bungalow stock",
+      "1940s–1960s mid-century infill",
+      "modern teardown/rebuilds in select neighborhoods"
+    ],
+    "dominantStyles": [
+      "Queen Anne Victorian",
+      "Craftsman bungalow",
+      "American Foursquare",
+      "Tudor Revival",
+      "Mid-Century Modern infill"
+    ],
+    "medianYearBuilt": null,
+    "pctHistoric": null
+  },
+  "neighborhoods": [
+    {
+      "name": "Downtown Kirkwood",
+      "profile": "Walkable historic commercial and residential core including the Kirkwood Train Station; mix of Victorian and early-20th-century housing."
+    },
+    {
+      "name": "Old Kirkwood / Greentree Park area",
+      "profile": "Established residential streets with significant Craftsman and Victorian inventory."
+    },
+    {
+      "name": "Webster Park area / Webster Groves border",
+      "profile": "Premium older neighborhoods adjoining the Webster Groves border; mature canopy and historic stock."
+    },
+    {
+      "name": "Glendale-adjacent streets",
+      "profile": "Eastern Kirkwood streets approaching the Glendale border with similar historic inventory."
+    }
+  ],
+  "weatherEvents": [
+    {
+      "date": "spring (recurring)",
+      "type": "hail",
+      "description": "Spring hail in the broader St. Louis corridor affects Kirkwood's older roof inventory; specific events: owner-verify."
+    },
+    {
+      "date": "winter/spring (recurring)",
+      "type": "ice storm",
+      "description": "Ice events on heavily-canopied historic streets bring down limbs onto roofs; specific events: owner-verify."
+    }
+  ],
+  "regulatoryContext": {
+    "permitOffice": "City of Kirkwood Building Department",
+    "notableCodes": [
+      "Walkable historic district considerations affect equipment staging and dumpster placement on tight blocks",
+      "Some properties subject to historic-preservation review for visible exterior changes",
+      "Tree-protection considerations on mature-canopy streets"
+    ],
+    "historicDistrictName": "Owner-verify: Kirkwood may have one or more local or National Register historic districts"
+  },
+  "localEntities": {
+    "landmarks": [
+      "Kirkwood Train Station (the Magic House nearby)",
+      "Kirkwood Park",
+      "The Magic House children's museum",
+      "Kirkwood High School",
+      "Webster Groves border (adjacent)"
+    ],
+    "highways": ["I-44", "Highway 366 / Watson Road", "Lindbergh Boulevard"],
+    "suppliers": [
+      "Owner-verify: list nearby South County / mid-county roofing suppliers serving Kirkwood"
+    ]
+  },
+  "commonRoofingChallenges": [
+    "Period-appropriate material recommendations for Victorian and Craftsman homes (slate alternatives, designer asphalt mimicking historic profiles)",
+    "Tight downtown blocks limiting dumpster and equipment placement",
+    "Dust and noise mitigation expected on dense walkable streets",
+    "Branch-strike repairs from mature canopy",
+    "Older homes with original decking that often needs partial replacement"
+  ],
+  "nearbyCities": ["clayton-mo", "ladue-mo"],
+  "uniqueAngleElaboration": "Kirkwood is one of the St. Louis metro's most distinctive historic communities — a walkable downtown anchored by the 19th-century Kirkwood Train Station, surrounded by streets of Victorian, Craftsman, and Foursquare homes that have been continuously lived in since the late 1800s. Roofing in Kirkwood has to respect that. Period-appropriate material choices matter: a Queen Anne Victorian doesn't take a 3-tab asphalt shingle, and a Craftsman bungalow looks wrong with the wrong shingle profile. Modern designer asphalt lines, synthetic slate, and where budget allows real slate or cedar shake are common recommendations. Kirkwood's tight residential blocks add logistics challenges: dumpster placement has to consider neighbor driveways, equipment staging has to work around walkability, and dust and noise mitigation matters more here than on a half-acre lot in O'Fallon. Older Kirkwood homes also tend to need partial decking replacement during tear-off — original 1x6 plank decking from the early 1900s often hides moisture damage that doesn't appear until the shingles come off.",
+  "sourcesConsulted": [
+    "City of Kirkwood official website",
+    "General knowledge of historic-walkable St. Louis County housing"
+  ],
+  "ownerVerifyItems": [
+    "Whether Kirkwood has formal historic district overlays and what review processes apply",
+    "Specific recent severe-weather events affecting Kirkwood",
+    "Local supplier names",
+    "Median year built and percent historic stock for Kirkwood"
+  ]
+}

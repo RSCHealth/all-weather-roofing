@@ -1,0 +1,99 @@
+{
+  "slug": "belleville-il",
+  "nameDisplay": "Belleville, IL",
+  "primaryAngle": "Belleville's storm recovery: tornado, hail, and ongoing insurance-claim work",
+  "housingStock": {
+    "dominantEras": [
+      "pre-1900 historic downtown brick stock",
+      "early-1900s through mid-century brick bungalows and two-story frame",
+      "1970s–2010s subdivision additions"
+    ],
+    "dominantStyles": [
+      "Italianate and Victorian brick (downtown)",
+      "American Foursquare",
+      "Mid-century brick ranch",
+      "production-builder colonial in newer subdivisions"
+    ],
+    "medianYearBuilt": null,
+    "pctHistoric": null
+  },
+  "neighborhoods": [
+    {
+      "name": "Belleville Historic Districts",
+      "profile": "Three federally-registered historic districts in the downtown core, including West Main Street and Old Belleville, with 19th- and early-20th-century brick stock."
+    },
+    {
+      "name": "West Belleville",
+      "profile": "Older established neighborhoods west of the historic core; mature trees and pre-WWII brick and frame homes."
+    },
+    {
+      "name": "Northwest growth corridor",
+      "profile": "1970s–2010s subdivisions on the city's northern and northwestern sides; mostly asphalt-shingle production housing."
+    },
+    {
+      "name": "Swansea border / South Belleville",
+      "profile": "Mixed older and newer housing approaching the Swansea border; includes mid-century ranch and infill."
+    }
+  ],
+  "weatherEvents": [
+    {
+      "date": "spring (recurring)",
+      "type": "tornado",
+      "description": "Southern Illinois tornado risk window (March–June). Belleville and the broader Metro East have experienced multiple tornado events in recent decades (specific dated events: owner-verify)."
+    },
+    {
+      "date": "spring (recurring)",
+      "type": "hail",
+      "description": "Hail events frequently accompany Metro East severe weather, producing widespread insurance-claim activity in spring (specific dated events: owner-verify)."
+    },
+    {
+      "date": "summer (recurring)",
+      "type": "straight-line wind",
+      "description": "Derecho and straight-line wind events have caused tree-fall and roof damage in Belleville (specific events: owner-verify)."
+    }
+  ],
+  "regulatoryContext": {
+    "permitOffice": "City of Belleville Building & Zoning Department",
+    "notableCodes": [
+      "Multiple federally-registered historic districts in downtown — material and color changes can be subject to commission review",
+      "Illinois roofing licensure required (contractor must hold IDFPR license)",
+      "Insurance-claim work governed by Illinois adjusting rules"
+    ],
+    "historicDistrictName": "Multiple — including West Main Street Historic District and Old Belleville Historic District"
+  },
+  "localEntities": {
+    "landmarks": [
+      "West Main Street historic district",
+      "Belleville Public Square",
+      "Hofbräuhaus Belleville",
+      "Eckert's Country Store and Farms (regional)",
+      "Scott Air Force Base (nearby)"
+    ],
+    "highways": ["I-64", "Highway 159", "Highway 161"],
+    "suppliers": [
+      "Owner-verify: list nearby Metro East roofing suppliers serving Belleville"
+    ]
+  },
+  "commonRoofingChallenges": [
+    "High insurance-claim volume from recurrent tornado and hail activity",
+    "Historic-district approvals on downtown brick stock can require Historic Preservation Commission review",
+    "Older brick homes often have built-in gutters or flat-roof penthouse sections that need specialty work",
+    "Cross-state insurance handling for homeowners with carriers based out-of-state",
+    "Tree-strike damage from mature canopy in established western neighborhoods"
+  ],
+  "nearbyCities": ["ofallon-il", "edwardsville-il"],
+  "uniqueAngleElaboration": "Belleville sits in southern Illinois's tornado and severe-weather corridor, and storm-recovery work is a defining part of roofing in the city. Spring tornado risk peaks April–June, and major hail events have repeatedly produced widespread insurance-claim activity across the Metro East. Belleville roofers are insurance-claim contractors first and material specialists second — the conversation almost always starts with what the storm did and what the carrier will cover. Layered on top of that is Belleville's significant historic stock: federally-registered districts in the downtown core, brick homes that often have built-in gutters and roofing details that don't apply to suburban asphalt work, and preservation-commission review for visible material changes on historically contributing properties. Roofers working here need active Illinois licensure, comfort meeting Illinois adjusters on-site, and the experience to spot tornado-driven structural damage that hides under apparently intact shingles.",
+  "sourcesConsulted": [
+    "City of Belleville official website",
+    "National Register of Historic Places listings for Belleville, IL",
+    "Illinois Department of Financial and Professional Regulation roofing licensure",
+    "General regional weather pattern knowledge"
+  ],
+  "ownerVerifyItems": [
+    "Specific dated tornado, hail, and wind events affecting Belleville in the last 5 years",
+    "Specific historic district names and current Historic Preservation Commission processes",
+    "Illinois Roofing Contractor License number",
+    "Local Metro East supplier names",
+    "Permit office specifics for City of Belleville and surrounding St. Clair County jurisdictions"
+  ]
+}

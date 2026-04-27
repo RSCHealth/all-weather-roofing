@@ -1,0 +1,89 @@
+{
+  "slug": "clayton-mo",
+  "nameDisplay": "Clayton, MO",
+  "primaryAngle": "Premium materials and detailed workmanship for Clayton's architectural diversity",
+  "housingStock": {
+    "dominantEras": [
+      "1900s–1940s — original Old Town Clayton brick and frame homes",
+      "1950s–1970s mid-century modern infill",
+      "2000s–2020s recent luxury teardown-and-rebuild stock"
+    ],
+    "dominantStyles": [
+      "Colonial Revival",
+      "Tudor Revival",
+      "Mid-Century Modern",
+      "Contemporary luxury"
+    ],
+    "medianYearBuilt": null,
+    "pctHistoric": null
+  },
+  "neighborhoods": [
+    {
+      "name": "Old Town Clayton",
+      "profile": "Pre-WWII brick and frame homes near the city's commercial core; architecturally diverse blocks of Tudor, Colonial Revival, and four-square stock."
+    },
+    {
+      "name": "Hi-Pointe / Skinker DeBaliviere edge",
+      "profile": "Eastern Clayton blocks adjoining city limits; older homes plus mid-century apartments and condos."
+    },
+    {
+      "name": "DeMun",
+      "profile": "Walkable urban village with small-lot single-family homes and architecturally significant rowhouses near Forest Park."
+    },
+    {
+      "name": "Wydown / Forsyth corridor",
+      "profile": "Larger-lot luxury homes along Wydown and Forsyth Boulevards; mix of preserved historic estates and new luxury construction."
+    }
+  ],
+  "weatherEvents": [
+    {
+      "date": "spring (recurring)",
+      "type": "hail",
+      "description": "St. Louis-area severe-weather corridor produces periodic hail events affecting Clayton's roof inventory (specific dates and damage scope: owner-verify)."
+    },
+    {
+      "date": "summer (recurring)",
+      "type": "straight-line wind",
+      "description": "Straight-line wind events from summer thunderstorms occasionally damage shingles and topple mature trees (specific events: owner-verify)."
+    }
+  ],
+  "regulatoryContext": {
+    "permitOffice": "City of Clayton Planning & Development Services",
+    "notableCodes": [
+      "City review can require historic-context approval for visible changes on older properties",
+      "Strict aesthetics standards on rebuilds and major renovations"
+    ],
+    "historicDistrictName": null
+  },
+  "localEntities": {
+    "landmarks": [
+      "Shaw Park",
+      "Washington University in St. Louis (adjacent)",
+      "Centene Plaza",
+      "St. Louis County Government Center"
+    ],
+    "highways": ["I-170", "I-64 / Highway 40"],
+    "suppliers": [
+      "Owner-verify: list nearby lumber yards / roofing supply houses serving Clayton"
+    ]
+  },
+  "commonRoofingChallenges": [
+    "Architectural diversity means material recommendations must match each home individually — there's no Clayton 'standard'",
+    "Detail-oriented homeowners who notice everything; cut corners on flashing or color match show up immediately",
+    "Tight residential streets requiring careful dumpster placement and crew logistics",
+    "Mature tree canopy increasing branch-strike and debris-clearing scope"
+  ],
+  "nearbyCities": ["ladue-mo", "kirkwood-mo", "creve-coeur-mo"],
+  "uniqueAngleElaboration": "Clayton is unusual in St. Louis County for how architecturally diverse its housing stock is on a single block. You can stand on Wydown Boulevard and see a 1920s Tudor Revival next to a 1960s mid-century modern next to a 2018 contemporary teardown — and a roofing recommendation that's right for one is wrong for the next two. That diversity, combined with the Clayton homeowner's tendency to notice every detail, means premium-quality materials and meticulous workmanship are non-negotiable. Designer asphalt, slate, copper accents, and tile are all common across Clayton's better blocks; cheap 3-tab work would be visible from across the street. Logistics also matter — Clayton's tight residential streets and mature canopy mean dumpster placement and crew flow have to be planned carefully, and tree-strike repairs are a regular part of post-storm work in established neighborhoods.",
+  "sourcesConsulted": [
+    "City of Clayton official website",
+    "General knowledge of St. Louis County housing stock and architectural distribution"
+  ],
+  "ownerVerifyItems": [
+    "Specific permit office name and current procedures",
+    "Specific recent severe-weather events affecting Clayton",
+    "Local supplier names",
+    "Median year built and historic stock percentage",
+    "Whether any portion of Clayton has formal historic-district overlay"
+  ]
+}

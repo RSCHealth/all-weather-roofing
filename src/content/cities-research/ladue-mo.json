@@ -1,0 +1,88 @@
+{
+  "slug": "ladue-mo",
+  "nameDisplay": "Ladue, MO",
+  "primaryAngle": "Ladue estate roofing: historic preservation meets premium materials",
+  "housingStock": {
+    "dominantEras": [
+      "1910s–1940s estate-era construction",
+      "1950s–1970s mid-century estate infill",
+      "2000s–2020s teardown rebuilds at the high end"
+    ],
+    "dominantStyles": [
+      "Tudor Revival",
+      "Colonial Revival and Georgian",
+      "French Eclectic and Manor",
+      "Estate-scale Mid-Century Modern",
+      "Contemporary luxury rebuilds"
+    ],
+    "medianYearBuilt": null,
+    "pctHistoric": null
+  },
+  "neighborhoods": [
+    {
+      "name": "Old Ladue / north of Clayton Road",
+      "profile": "Original estate-era streets with the city's largest lots and most architecturally significant houses."
+    },
+    {
+      "name": "Ladue Estates / Country Day area",
+      "profile": "Premium streets near John Burroughs and MICDS schools; established estate inventory."
+    },
+    {
+      "name": "Litzsinger Road / Clayton Road corridor",
+      "profile": "Major residential corridors with mature trees and large estate lots throughout."
+    }
+  ],
+  "weatherEvents": [
+    {
+      "date": "spring (recurring)",
+      "type": "hail",
+      "description": "Spring hail in the West County corridor periodically affects Ladue's roof inventory; specific dates: owner-verify."
+    },
+    {
+      "date": "winter/spring (recurring)",
+      "type": "ice storm",
+      "description": "Ice events bring down mature limbs onto estate roofs; specific dated events: owner-verify."
+    }
+  ],
+  "regulatoryContext": {
+    "permitOffice": "City of Ladue Building Department",
+    "notableCodes": [
+      "Strict residential code enforcement; building permits reviewed carefully on visible exterior changes",
+      "Some properties subject to historic-preservation considerations though not formal historic district",
+      "Tree-protection ordinances active across the city"
+    ],
+    "historicDistrictName": null
+  },
+  "localEntities": {
+    "landmarks": [
+      "Ladue Town Hall",
+      "John Burroughs School",
+      "Mary Institute and Saint Louis Country Day School (MICDS)",
+      "Forest Park (adjacent)",
+      "Tilles Park (adjacent)"
+    ],
+    "highways": ["I-64 / Highway 40", "I-170 (nearby)"],
+    "suppliers": [
+      "Owner-verify: list premium-material suppliers serving Ladue projects"
+    ]
+  },
+  "commonRoofingChallenges": [
+    "Reputation-sensitive clientele expecting white-glove project management",
+    "Estate-scale projects with larger crews, longer timelines, and more complex logistics",
+    "Premium materials (slate, copper, tile, designer asphalt) standard rather than upgrade",
+    "Strict code enforcement on visible exterior changes",
+    "Mature canopy and tree-protection ordinances affecting equipment staging"
+  ],
+  "nearbyCities": ["clayton-mo", "creve-coeur-mo", "kirkwood-mo"],
+  "uniqueAngleElaboration": "Ladue is St. Louis's oldest-money market, and roofing here looks different from anywhere else in the metro. Estate-scale houses, premium materials as a baseline, strict municipal code enforcement, and reputation-sensitive clientele who notice every aspect of a project — from the tarp coverage on landscaping to the magnetic-sweep cleanup — make Ladue work a different category of contracting. The materials on the table are slate, copper, clay tile, designer asphalt at the high end of the line, and the workmanship has to match. Crews need to behave like guests rather than tradespeople: clean trucks, uniformed staff, scheduled communications with the homeowner or property manager, no profanity within earshot. None of that is optional. Code enforcement is among the strictest in the metro — the City of Ladue building department reviews permits carefully and inspects work thoroughly. A contractor who's never worked in Ladue before will fail this market quickly; one who has built a track record here will earn referrals from neighbors who already know the contractor's name.",
+  "sourcesConsulted": [
+    "City of Ladue official website",
+    "General knowledge of premium West County estate housing"
+  ],
+  "ownerVerifyItems": [
+    "Specific recent severe-weather events affecting Ladue",
+    "Specific neighborhood sub-area names commonly used by Ladue residents",
+    "Local premium-material supplier names",
+    "Whether All Weather has portfolio examples and references on Ladue projects"
+  ]
+}

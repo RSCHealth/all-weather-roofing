@@ -1,0 +1,84 @@
+{
+  "slug": "ofallon-il",
+  "nameDisplay": "O'Fallon, IL",
+  "primaryAngle": "Serving O'Fallon, IL — including Scott AFB families and cross-state insurance claims",
+  "housingStock": {
+    "dominantEras": [
+      "1980s–2010s subdivision growth",
+      "active recent build-out across the eastern and northern sides"
+    ],
+    "dominantStyles": [
+      "suburban traditional",
+      "production-builder colonial and craftsman",
+      "ranch and split-level on older streets"
+    ],
+    "medianYearBuilt": null,
+    "pctHistoric": null
+  },
+  "neighborhoods": [
+    {
+      "name": "Scott Air Force Base adjacency",
+      "profile": "Subdivisions near Scott AFB serve a high concentration of military families navigating PCS-driven sale timelines."
+    },
+    {
+      "name": "Downtown O'Fallon",
+      "profile": "Older city core with a mix of mid-century and pre-1970 frame and brick housing."
+    },
+    {
+      "name": "Northwest O'Fallon growth corridor",
+      "profile": "Newer subdivisions along the I-64/US-50 growth corridor with HOA governance and active recent construction."
+    }
+  ],
+  "weatherEvents": [
+    {
+      "date": "spring (recurring)",
+      "type": "hail",
+      "description": "Metro East Illinois sits in the same severe-weather corridor as Missouri-side suburbs; spring hail affects O'Fallon IL roofs regularly (specific dates: owner-verify)."
+    },
+    {
+      "date": "spring (recurring)",
+      "type": "tornado",
+      "description": "Southern Illinois tornado risk is elevated through April–June; specific historical events affecting O'Fallon: owner-verify."
+    }
+  ],
+  "regulatoryContext": {
+    "permitOffice": "City of O'Fallon Building & Zoning Department (St. Clair County for unincorporated)",
+    "notableCodes": [
+      "Illinois roofing licensure differs from Missouri — contractors must hold an Illinois Department of Financial and Professional Regulation roofing license",
+      "Insurance claim adjusting follows Illinois rules and timelines, which differ slightly from Missouri"
+    ],
+    "historicDistrictName": null
+  },
+  "localEntities": {
+    "landmarks": [
+      "Scott Air Force Base (adjacent)",
+      "Family Sports Park",
+      "Veterans Park",
+      "Downtown O'Fallon historic district"
+    ],
+    "highways": ["I-64", "US Highway 50", "I-255 (nearby)"],
+    "suppliers": [
+      "Owner-verify: list nearby Metro East roofing suppliers serving O'Fallon, IL"
+    ]
+  },
+  "commonRoofingChallenges": [
+    "Military PCS timelines that compress real estate transactions and demand fast pre-sale roofing assessments",
+    "Cross-state insurance claim handling — adjusters work either side of the river but with different rules and timelines",
+    "Spring hail and wind events driving heavy claim volume",
+    "Illinois licensure requirement screens out unlicensed Missouri-only contractors"
+  ],
+  "nearbyCities": ["belleville-il", "edwardsville-il"],
+  "uniqueAngleElaboration": "O'Fallon, Illinois sits adjacent to Scott Air Force Base, and that proximity shapes a meaningful share of our work in the city. PCS (Permanent Change of Station) cycles compress real estate timelines for military families — when a homeowner has 60 days to sell before reporting to a new base, a roof issue identified during the buyer's inspection can derail the entire sale. Fast pre-sale inspections, clear written reports, and rapid repair scheduling are essential. Beyond the military angle, O'Fallon IL is a fast-growing Metro East suburb with a housing mix that includes 1980s–2010s subdivision homes plus an older downtown core. Insurance claim work here follows Illinois rules — adjusting timelines, rebuild scope rules, and deductible structures can differ from Missouri-side claims. Roofing contractors working in O'Fallon need active Illinois Department of Financial and Professional Regulation licensure, and homeowners should specifically verify Illinois licensure (separate from any Missouri credentials a contractor advertises).",
+  "sourcesConsulted": [
+    "City of O'Fallon, IL official website",
+    "Illinois Department of Financial and Professional Regulation roofing licensure information",
+    "General knowledge of Scott AFB-area housing and PCS dynamics"
+  ],
+  "ownerVerifyItems": [
+    "Specific Scott AFB-adjacent neighborhood names",
+    "Specific recent severe-weather events affecting O'Fallon, IL",
+    "Illinois Roofing Contractor License number for All Weather Roofing Systems",
+    "Local Metro East supplier names",
+    "Permit office specifics for City of O'Fallon vs. St. Clair County"
+  ]
+}
