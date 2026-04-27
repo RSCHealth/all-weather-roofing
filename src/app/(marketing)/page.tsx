@@ -109,6 +109,11 @@ export default function HomePage() {
           "GAF Certified",
           "Locally Owned",
         ]}
+        media={{
+          kind: "image",
+          src: "/images/hero/homepage-aerial-shingle-install.jpg",
+          alt: "Aerial view of a roofer using an air hammer to install asphalt shingles on a residential St. Louis home.",
+        }}
         ctaClass="B"
         trackingLocation="homepage_hero"
       />

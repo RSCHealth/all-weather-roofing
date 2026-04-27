@@ -75,10 +75,11 @@ export function Hero({
               <Image
                 src={media.src}
                 alt={media.alt}
-                width={720}
-                height={540}
+                width={1200}
+                height={800}
                 priority
-                className="rounded-xl object-cover shadow-card"
+                sizes="(min-width: 1024px) 540px, 100vw"
+                className="aspect-[3/2] w-full rounded-xl object-cover shadow-card"
               />
             ) : (
               media.node
