@@ -5,6 +5,7 @@ import { Logo } from "@/components/layout/Logo";
 import { PhoneLink } from "@/components/ui/PhoneLink";
 import { BusinessHoursBadge } from "@/components/cta/BusinessHoursBadge";
 import { BUSINESS, DAY_KEYS } from "@/lib/constants";
+import { formatTime12 } from "@/lib/hours";
 import { SERVICES, CITIES, RESOURCE_LINKS, SOCIAL_LINKS } from "@/lib/navigation";
 
 export function Footer() {
@@ -54,7 +55,9 @@ export function Footer() {
                     {DAY_KEYS.map((day) => {
                       const h = BUSINESS.hours.regular[day];
                       const label =
-                        !h.open || !h.close ? "Closed" : `${h.open} – ${h.close}`;
+                        !h.open || !h.close
+                          ? "Closed"
+                          : `${formatTime12(h.open)} – ${formatTime12(h.close)}`;
                       return (
                         <tr key={day}>
                           <td className="capitalize">{day}</td>
@@ -64,6 +67,11 @@ export function Footer() {
                     })}
                   </tbody>
                 </table>
+                {BUSINESS.hours.emergency24_7 ? (
+                  <p className="mt-2 text-xs font-semibold text-signal-amber">
+                    24/7 emergency response — call anytime.
+                  </p>
+                ) : null}
               </details>
             </address>
           </div>
