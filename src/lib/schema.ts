@@ -171,6 +171,9 @@ export function buildLocalBusiness(options: LocalBusinessOptions = {}) {
       latitude: BUSINESS.coordinates.lat,
       longitude: BUSINESS.coordinates.lng,
     },
+    hasMap: `https://www.google.com/maps?q=${encodeURIComponent(
+      `${BUSINESS.address.street}, ${BUSINESS.address.city}, ${BUSINESS.address.region} ${BUSINESS.address.postal}`,
+    )}`,
     openingHoursSpecification: openingHoursSpecification(),
     areaServed,
     priceRange: options.priceRange ?? "$$ – $$$$",
