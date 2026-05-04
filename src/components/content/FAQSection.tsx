@@ -1,6 +1,9 @@
+"use client";
+
 import * as React from "react";
 import { ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { trackEvent } from "@/lib/tracking";
 import type { Faq } from "@/types";
 
 export type FAQSectionProps = {
@@ -49,7 +52,14 @@ export function FAQSection({
       <ul className="mt-6 flex flex-col gap-2">
         {faqs.map((faq) => (
           <li key={faq.question} className="rounded-lg border border-slate-200 bg-white shadow-card">
-            <details className="group">
+            <details
+              className="group"
+              onToggle={(e) => {
+                if ((e.currentTarget as HTMLDetailsElement).open) {
+                  trackEvent("faq_expand", { question: faq.question });
+                }
+              }}
+            >
               <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-5 py-4 font-heading text-base font-semibold text-storm-navy [&::-webkit-details-marker]:hidden">
                 <span>{faq.question}</span>
                 <ChevronDown
