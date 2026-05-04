@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import { isOpenNow, closingTimeLabel, nextOpenLabel } from "@/lib/hours";
+import { BUSINESS } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 type HoursState = {
@@ -85,6 +86,10 @@ export function BusinessHoursBadge({ className, compact }: BusinessHoursBadgePro
     );
   }
 
+  const closedSuffix = BUSINESS.hours.emergency24_7
+    ? " · 24/7 emergency line"
+    : "";
+
   return (
     <span
       className={cn(
@@ -93,7 +98,11 @@ export function BusinessHoursBadge({ className, compact }: BusinessHoursBadgePro
       )}
     >
       <span className="size-2 rounded-full bg-signal-amber" aria-hidden="true" />
-      {compact ? "Closed" : `Currently closed · ${hours.nextOpen}`}
+      {compact
+        ? BUSINESS.hours.emergency24_7
+          ? "Closed · 24/7 emergency"
+          : "Closed"
+        : `Currently closed · ${hours.nextOpen}${closedSuffix}`}
     </span>
   );
 }
