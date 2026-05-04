@@ -43,7 +43,7 @@ export const BUSINESS = {
     },
     // If owner offers 24/7 emergency response, set to true; otherwise false.
     // When true, Emergency + Storm Damage pages will keep phone-first CTA regardless of hours.
-    emergency24_7: false, // confirm with owner
+    emergency24_7: true,
   },
 } as const;
 
