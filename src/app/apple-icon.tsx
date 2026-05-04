@@ -10,19 +10,28 @@ export default function AppleIcon() {
         style={{
           width: "100%",
           height: "100%",
+          background: "#1B3054",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "#1B3054",
-          fontSize: 96,
-          fontWeight: 800,
-          color: "#FFFFFF",
-          fontFamily: "system-ui, sans-serif",
-          letterSpacing: -3,
         }}
       >
-        <span style={{ color: "#D97B2B" }}>A</span>
-        <span>W</span>
+        <svg width="140" height="140" viewBox="0 0 48 48" fill="none">
+          <path
+            d="M6 30 L24 12 L42 30"
+            stroke="#D97B2B"
+            strokeWidth="4.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M12 32 L12 40 L36 40 L36 32"
+            stroke="#FFFFFF"
+            strokeWidth="3.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
     ),
     { ...size },
