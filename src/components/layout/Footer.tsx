@@ -11,6 +11,14 @@ import { SERVICES, CITIES, RESOURCE_LINKS, SOCIAL_LINKS } from "@/lib/navigation
 export function Footer() {
   const year = new Date().getFullYear();
 
+  const mapAddress = `${BUSINESS.address.street}, ${BUSINESS.address.city}, ${BUSINESS.address.region} ${BUSINESS.address.postal}`;
+  const mapEmbedSrc = `https://www.google.com/maps?q=${encodeURIComponent(
+    mapAddress,
+  )}&output=embed`;
+  const mapDirectionsHref = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
+    mapAddress,
+  )}`;
+
   return (
     <footer className="mt-24 border-t border-slate-200 bg-storm-navy text-slate-200">
       <div className="mx-auto max-w-7xl px-6 py-12 lg:py-16">
@@ -26,6 +34,25 @@ export function Footer() {
                   <br />
                   {BUSINESS.address.city}, {BUSINESS.address.region} {BUSINESS.address.postal}
                 </span>
+              </div>
+              <div className="mt-3 overflow-hidden rounded-md border border-white/10 bg-slate-900">
+                <iframe
+                  title={`Map showing ${BUSINESS.name} office at ${mapAddress}`}
+                  src={mapEmbedSrc}
+                  className="block h-40 w-full"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
+              <div className="mt-2">
+                <a
+                  href={mapDirectionsHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs font-semibold text-signal-amber underline-offset-4 hover:underline"
+                >
+                  Get directions
+                </a>
               </div>
               <div className="mt-3">
                 <PhoneLink
@@ -69,7 +96,7 @@ export function Footer() {
                 </table>
                 {BUSINESS.hours.emergency24_7 ? (
                   <p className="mt-2 text-xs font-semibold text-signal-amber">
-                    24/7 emergency response — call anytime.
+                    24/7 emergency response. Call anytime.
                   </p>
                 ) : null}
               </details>
