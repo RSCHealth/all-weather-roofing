@@ -31,7 +31,7 @@ function parseHM(hm: string): { h: number; m: number } {
   return { h, m };
 }
 
-function formatTime12(hm: string): string {
+export function formatTime12(hm: string): string {
   const { h, m } = parseHM(hm);
   const period = h >= 12 ? "PM" : "AM";
   const h12 = h % 12 === 0 ? 12 : h % 12;
