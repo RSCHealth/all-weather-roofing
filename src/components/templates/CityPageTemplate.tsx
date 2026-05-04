@@ -7,6 +7,7 @@ import { DirectAnswer } from "@/components/content/DirectAnswer";
 import { ProcessSteps } from "@/components/content/ProcessSteps";
 import { FAQSection } from "@/components/content/FAQSection";
 import { ReviewsSection } from "@/components/content/ReviewsSection";
+import { TrustBar } from "@/components/content/TrustBar";
 import { CTABand } from "@/components/cta/CTABand";
 import { JsonLd } from "@/components/schema/JsonLd";
 import { BUSINESS } from "@/lib/constants";
@@ -91,6 +92,8 @@ export function CityPageTemplate({ content }: { content: CityContent }) {
           }
         />
       </div>
+
+      <TrustBar />
 
       <article className="mx-auto w-full max-w-3xl px-6 py-12 lg:py-16">
         <DirectAnswer eyebrow={`Quick read: ${content.nameDisplay}`}>
