@@ -81,6 +81,7 @@ export type OrganizationOptions = {
 
 export function buildOrganization(options: OrganizationOptions = {}) {
   const sameAs = options.sameAs ?? BUSINESS.sameAs;
+  const logoPath = options.logoPath ?? "/apple-icon";
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -90,9 +91,8 @@ export function buildOrganization(options: OrganizationOptions = {}) {
     url: BUSINESS.url,
     telephone: PHONE_E164,
     email: BUSINESS.email,
-    ...(options.logoPath
-      ? { logo: `${BUSINESS.url}${options.logoPath}` }
-      : {}),
+    logo: `${BUSINESS.url}${logoPath}`,
+    image: `${BUSINESS.url}${logoPath}`,
     ...(options.foundingDate ? { foundingDate: options.foundingDate } : {}),
     ...(options.founder
       ? { founder: { "@type": "Person", name: options.founder } }
