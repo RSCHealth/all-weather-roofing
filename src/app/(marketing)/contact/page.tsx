@@ -28,7 +28,7 @@ const CONTACT_FAQS: Faq[] = [
   {
     question: "Do you offer after-hours service?",
     answer:
-      "Yes — we offer 24/7 emergency response, 365 days a year. If you have an active leak, an open hole in your roof, missing shingles after a storm, or any condition that's actively letting water inside, call (314) 834-6556 anytime. A live dispatcher will get a crew rolling. Routine quotes and inspections are scheduled during regular business hours.",
+      "Yes. We offer 24/7 emergency response, 365 days a year. If you have an active leak, an open hole in your roof, missing shingles after a storm, or any condition that's actively letting water inside, call (314) 834-6556 anytime. A live dispatcher will get a crew rolling. Routine quotes and inspections are scheduled during regular business hours.",
   },
   {
     question: "Where's your office?",
@@ -80,14 +80,22 @@ export default function ContactPage() {
           </h1>
           <div className="mt-6 max-w-3xl">
             <DirectAnswer eyebrow="The fastest way to reach us">
-              <p>
-                The fastest way to reach All Weather Roofing Systems is by
-                phone at <strong>{BUSINESS.phone}</strong>, Monday–Friday 7 AM
-                to 6 PM and Saturday 8 AM to 2 PM. For roof emergencies —
-                active leaks, storm damage, anything letting water inside —
-                we answer <strong>24/7, 365 days a year</strong>. Call the
-                same number anytime.
-              </p>
+              <div className="space-y-3">
+                <p>
+                  The fastest way to reach All Weather Roofing Systems is by
+                  phone at <strong>{BUSINESS.phone}</strong>.
+                </p>
+                <p>
+                  Regular hours are Monday through Friday, 7 AM to 6 PM, and
+                  Saturday, 8 AM to 2 PM.
+                </p>
+                <p>
+                  For roof emergencies like active leaks, storm damage, or
+                  anything letting water inside, we answer{" "}
+                  <strong>24/7, 365 days a year</strong>. Call the same
+                  number anytime.
+                </p>
+              </div>
             </DirectAnswer>
           </div>
         </div>
