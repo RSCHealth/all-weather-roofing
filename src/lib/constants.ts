@@ -26,8 +26,8 @@ export const BUSINESS = {
     postal: "63101",
     country: "US",
   },
-  coordinates: { lat: 38.6270, lng: -90.1994 }, // confirm with owner
-  url: "https://allweatherroofingsystems.com",
+  coordinates: { lat: 38.6263, lng: -90.1944 },
+  url: "https://www.allweatherroofingsystems.com",
   sameAs: [] as string[], // populate with GBP, Facebook, etc. before launch
   hours: {
     // 24-hour format, IANA timezone America/Chicago
