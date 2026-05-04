@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
-import { Phone, MessageSquare } from "lucide-react";
+import { MessageSquare } from "lucide-react";
 import { PhoneLink } from "@/components/ui/PhoneLink";
 import { useHours } from "@/components/cta/BusinessHoursBadge";
 import { BUSINESS } from "@/lib/constants";
@@ -73,7 +73,6 @@ export function StickyMobilePhoneBar({ ctaClass = "B" }: StickyMobilePhoneBarPro
               aria-label={`Call ${BUSINESS.name}`}
               className="m-2 flex-[7] rounded-md gap-2"
             >
-              <Phone size={18} aria-hidden="true" />
               <span className="font-semibold">Call Now</span>
               <span className="hidden text-xs font-normal sm:inline">
                 · {BUSINESS.phone}
