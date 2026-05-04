@@ -7,6 +7,7 @@ import { FAQSection } from "@/components/content/FAQSection";
 import { CTABand } from "@/components/cta/CTABand";
 import { ServiceAreasSection } from "@/components/content/ServiceAreasSection";
 import { BUSINESS, DAY_KEYS } from "@/lib/constants";
+import { formatTime12 } from "@/lib/hours";
 import { buildMetadata } from "@/lib/metadata";
 import { cn } from "@/lib/utils";
 import type { Faq } from "@/types";
@@ -27,7 +28,7 @@ const CONTACT_FAQS: Faq[] = [
   {
     question: "Do you offer after-hours service?",
     answer:
-      "We respond to active emergencies — like an open hole in your roof or a fresh leak after a storm — outside normal business hours when we have crews available. If we don't pick up, leave a callback request marked ASAP and we'll follow up first thing the next business day. For 24/7 dispatch confirmation, ask when you call.",
+      "Yes — we offer 24/7 emergency response, 365 days a year. If you have an active leak, an open hole in your roof, missing shingles after a storm, or any condition that's actively letting water inside, call (314) 834-6556 anytime. A live dispatcher will get a crew rolling. Routine quotes and inspections are scheduled during regular business hours.",
   },
   {
     question: "Where's your office?",
@@ -54,7 +55,7 @@ function CurrentDayHoursTable() {
           const display =
             !hours.open || !hours.close
               ? "Closed"
-              : `${hours.open} – ${hours.close}`;
+              : `${formatTime12(hours.open)} – ${formatTime12(hours.close)}`;
           return (
             <tr key={day}>
               <td className="py-2 font-medium text-slate-700">
@@ -82,9 +83,10 @@ export default function ContactPage() {
               <p>
                 The fastest way to reach All Weather Roofing Systems is by
                 phone at <strong>{BUSINESS.phone}</strong>, Monday–Friday 7 AM
-                to 6 PM and Saturday 8 AM to 2 PM. For after-hours requests,
-                leave a callback and we&rsquo;ll reach out first thing the
-                next business day.
+                to 6 PM and Saturday 8 AM to 2 PM. For roof emergencies —
+                active leaks, storm damage, anything letting water inside —
+                we answer <strong>24/7, 365 days a year</strong>. Call the
+                same number anytime.
               </p>
             </DirectAnswer>
           </div>
@@ -158,10 +160,24 @@ export default function ContactPage() {
               <div className={cn("mt-3")}>
                 <CurrentDayHoursTable />
               </div>
-              <p className="mt-3 text-xs text-slate-500">
-                Note: emergency-response availability outside these hours is
-                handled by phone. Confirm 24/7 emergency status when you call.
-              </p>
+              {BUSINESS.hours.emergency24_7 ? (
+                <div className="mt-4 rounded-md border-l-4 border-signal-amber bg-signal-amber/5 px-3 py-2">
+                  <p className="text-sm font-semibold text-storm-navy">
+                    24/7 emergency response
+                  </p>
+                  <p className="mt-0.5 text-xs text-slate-700">
+                    Active leaks, storm damage, or anything letting water
+                    inside? Call {BUSINESS.phone} any time — day, night,
+                    weekend, holiday.
+                  </p>
+                </div>
+              ) : (
+                <p className="mt-3 text-xs text-slate-500">
+                  Note: emergency-response availability outside these hours is
+                  handled by phone. Confirm 24/7 emergency status when you
+                  call.
+                </p>
+              )}
             </div>
           </div>
 
