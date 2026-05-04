@@ -8,6 +8,7 @@ import { VoiceQuickAnswer } from "@/components/content/VoiceQuickAnswer";
 import { ProcessSteps } from "@/components/content/ProcessSteps";
 import { FAQSection } from "@/components/content/FAQSection";
 import { CitationLink } from "@/components/content/CitationLink";
+import { TrustBar } from "@/components/content/TrustBar";
 import { CTABand } from "@/components/cta/CTABand";
 import { JsonLd } from "@/components/schema/JsonLd";
 import { BUSINESS } from "@/lib/constants";
@@ -69,6 +70,8 @@ export function ServicePageTemplate({ content }: { content: ServiceContent }) {
           }
         />
       </div>
+
+      <TrustBar />
 
       <article className="mx-auto w-full max-w-3xl px-6 py-12 lg:py-16">
         <DirectAnswer eyebrow="Quick answer">
@@ -148,6 +151,8 @@ export function ServicePageTemplate({ content }: { content: ServiceContent }) {
           </aside>
         ) : null}
       </article>
+
+      <FinancingCallout />
 
       <ProcessSteps headline="Our process" steps={content.processSteps} />
 
@@ -425,6 +430,34 @@ function slugToTitle(slug: string): string {
     .split("-")
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
+}
+
+function FinancingCallout() {
+  return (
+    <section
+      className="border-y border-slate-200 bg-hearthstone"
+      aria-label="Financing"
+    >
+      <div className="mx-auto flex max-w-7xl flex-col items-start gap-4 px-6 py-6 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p className="font-heading text-base font-semibold text-storm-navy">
+            Financing available on full roof replacements
+          </p>
+          <p className="mt-1 text-sm text-slate-700">
+            Pay over time with low monthly payments. Same-day decisions on
+            most applications.
+          </p>
+        </div>
+        <Link
+          href="/financing"
+          className="inline-flex items-center gap-1.5 rounded-md border-2 border-storm-navy px-4 py-2 font-heading text-sm font-semibold text-storm-navy hover:bg-storm-navy hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-storm-navy"
+        >
+          See financing options
+          <ArrowRight size={14} aria-hidden="true" />
+        </Link>
+      </div>
+    </section>
+  );
 }
 
 export default ServicePageTemplate;
