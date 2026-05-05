@@ -22,9 +22,9 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      // Legacy Hostinger URL — old site had /locations/ which Google
-      // indexed. New site uses /service-areas/. 301 preserves rankings
-      // and routes inbound traffic to the equivalent hub page.
+      // Legacy Hostinger URL: old site had /locations/. New site uses
+      // /service-areas/. 301 preserves rankings and routes inbound
+      // traffic to the equivalent hub page.
       {
         source: "/locations",
         destination: "/service-areas",
@@ -33,6 +33,44 @@ const nextConfig: NextConfig = {
       {
         source: "/locations/:path*",
         destination: "/service-areas",
+        permanent: true,
+      },
+      // Legitimate WordPress pages from the prior site that GSC still
+      // has indexed. Each one points at the closest equivalent on the
+      // new site. (Hacked spam URLs get 410 from middleware.)
+      {
+        source: "/residential-roofing-services-2",
+        destination: "/services/residential-roofing",
+        permanent: true,
+      },
+      {
+        source: "/beyond-the-gates-of-grants-farm-in-st-louis",
+        destination: "/blog",
+        permanent: true,
+      },
+      {
+        source: "/beyond-the-gates-of-grants-farm-in-st-louis/:page*",
+        destination: "/blog",
+        permanent: true,
+      },
+      {
+        source: "/wonders-of-saint-louis-science-center",
+        destination: "/blog",
+        permanent: true,
+      },
+      {
+        source: "/wonders-of-saint-louis-science-center/:page*",
+        destination: "/blog",
+        permanent: true,
+      },
+      {
+        source: "/exploring-st-louiss-iconic-gateway-arch",
+        destination: "/blog",
+        permanent: true,
+      },
+      {
+        source: "/exploring-st-louiss-iconic-gateway-arch/:page*",
+        destination: "/blog",
         permanent: true,
       },
     ];
