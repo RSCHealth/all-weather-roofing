@@ -20,6 +20,23 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ["lucide-react", "date-fns"],
   },
+  async redirects() {
+    return [
+      // Legacy Hostinger URL — old site had /locations/ which Google
+      // indexed. New site uses /service-areas/. 301 preserves rankings
+      // and routes inbound traffic to the equivalent hub page.
+      {
+        source: "/locations",
+        destination: "/service-areas",
+        permanent: true,
+      },
+      {
+        source: "/locations/:path*",
+        destination: "/service-areas",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
