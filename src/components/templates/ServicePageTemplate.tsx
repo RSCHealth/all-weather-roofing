@@ -20,7 +20,18 @@ import {
   buildHowTo,
 } from "@/lib/schema";
 import { cn } from "@/lib/utils";
+import { REVIEWS } from "@/content/reviews";
 import type { ServiceContent, Section, TableData } from "@/types/service";
+
+const REVIEW_THRESHOLD = 5;
+const aggregateRating =
+  REVIEWS.length >= REVIEW_THRESHOLD
+    ? {
+        value:
+          REVIEWS.reduce((sum, r) => sum + r.rating, 0) / REVIEWS.length,
+        count: REVIEWS.length,
+      }
+    : undefined;
 
 const MID_CTA_THRESHOLD = 5;
 
@@ -71,7 +82,7 @@ export function ServicePageTemplate({ content }: { content: ServiceContent }) {
         />
       </div>
 
-      <TrustBar />
+      <TrustBar rating={aggregateRating} />
 
       <article className="mx-auto w-full max-w-3xl px-6 py-12 lg:py-16">
         <DirectAnswer eyebrow="Quick answer">
