@@ -43,6 +43,29 @@ const nextConfig: NextConfig = {
         destination: "/services/residential-roofing",
         permanent: true,
       },
+      // Material-specific landing pages from the old site. Asphalt
+      // shingles are the dominant residential material, so map to
+      // residential-roofing as the closest equivalent.
+      {
+        source: "/asphalt-roofing",
+        destination: "/services/residential-roofing",
+        permanent: true,
+      },
+      {
+        source: "/shingle-roofing",
+        destination: "/services/residential-roofing",
+        permanent: true,
+      },
+      {
+        source: "/tile-roofing",
+        destination: "/services/residential-roofing",
+        permanent: true,
+      },
+      {
+        source: "/flat-roofing",
+        destination: "/services/commercial-roofing",
+        permanent: true,
+      },
       {
         source: "/beyond-the-gates-of-grants-farm-in-st-louis",
         destination: "/blog",
