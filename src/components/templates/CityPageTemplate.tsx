@@ -48,6 +48,18 @@ export function CityPageTemplate({ content }: { content: CityContent }) {
     content.citySpecificTestimonialIds.includes(r.id),
   );
 
+  const REVIEW_THRESHOLD = 5;
+  const ratingPool = cityReviews.length > 0 ? cityReviews : REVIEWS;
+  const cityRating =
+    ratingPool.length >= REVIEW_THRESHOLD
+      ? {
+          value:
+            ratingPool.reduce((sum, r) => sum + r.rating, 0) /
+            ratingPool.length,
+          count: ratingPool.length,
+        }
+      : undefined;
+
   const schemas = [
     buildLocalBusiness({
       scopedToCity: content.nameDisplay,
@@ -93,7 +105,7 @@ export function CityPageTemplate({ content }: { content: CityContent }) {
         />
       </div>
 
-      <TrustBar />
+      <TrustBar rating={cityRating} />
 
       <article className="mx-auto w-full max-w-3xl px-6 py-12 lg:py-16">
         <DirectAnswer eyebrow={`Quick read: ${content.nameDisplay}`}>
